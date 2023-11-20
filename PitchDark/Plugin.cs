@@ -8,7 +8,7 @@ namespace PitchDark {
     public class Plugin : BaseUnityPlugin {
         public const string PluginGUID = "com.maxsch.BelowTheStone.PitchDark";
         public const string PluginName = "Pitch Dark";
-        public const string PluginVersion = "0.0.1";
+        public const string PluginVersion = "0.1.0";
 
         public static ManualLogSource Log { get; private set; }
         
