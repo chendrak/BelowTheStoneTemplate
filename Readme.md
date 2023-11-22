@@ -1,10 +1,20 @@
-﻿# Pitch Dark
+﻿# Below the Stone - Mod Tempalte
 
-Changes the player and torch lights to be have a shorter range.
-Without a torch or Gloweed, it's pitch dark.
+This is a template repository for Below the Stone Mods. It Is a clone of [PitchDark](https://github.com/MSchmoecker/PitchDark), stripped down to the minimum. 
 
-![Showcase](Docs/Showcase.png)
+![Showcase](Docs/BtS_Logo.png)
 
+Put showcase image there ^
+
+## How to use this repository
+
+1. Fork or Clone it
+2. Change the following:
+   - `AssemblyTitle` and `AssemblyProduct` in `Properties\AsssemblyInfo.cs`
+   - `RootNameSpace` and `AssemblyName` in `BtSModTemplate.csproj`
+   - Change `namespace BtsModTemplate` in `Plugin.cs` to `namespace <YourPluginName>`
+   - Optionally: Rename `BtSModTemplate.csproj`. If you do, also change all instances of `BtsModTemplate` in `BtsModTemplate.sln`
+   - Optionally: Rename `BtSModTemplate.sln`
 
 ## Installation
 
@@ -17,13 +27,11 @@ This mod requires BepInEx to work, it's a modding framework that allows multiple
 4. Download this mod from [Releases](https://github.com/MSchmoecker/PitchDark/releases) and extract it into BepInEx/plugins/
 5. Launch the game!
 
-
 ## Configuration
 
-The config file is located in `BepInEx/config/com.maxsch.BelowTheStone.PitchDark.cfg` after you launched the game once with the mod installed.
+The config file is located in `BepInEx/config/<Your Plugin Name>.cfg` after you launched the game once with the mod installed.
 
-Both player and torch light radius ranges can be configured separately.
-
+Add more instructions about your configuration options in here
 
 ## Development
 

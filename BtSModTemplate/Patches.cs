@@ -3,7 +3,7 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-namespace PitchDark {
+namespace BtSModTemplate {
     [HarmonyPatch]
     public static class Patches {
         [HarmonyPatch(typeof(PlayerObject), nameof(PlayerObject.Awake)), HarmonyPostfix]
