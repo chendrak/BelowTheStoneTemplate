@@ -1,4 +1,4 @@
-﻿# Below the Stone - Mod Tempalte
+﻿# Below the Stone - Mod Template
 
 This is a template repository for Below the Stone Mods. It Is a clone of [PitchDark](https://github.com/MSchmoecker/PitchDark), stripped down to the minimum. 
 
